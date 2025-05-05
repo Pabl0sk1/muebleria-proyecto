@@ -1,0 +1,117 @@
+
+.btn-eye{
+    border: none;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border-line th, .border-line td {
+    border: 1px solid #909498;
+}
+
+.border-line th{
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.border-line tbody tr:first-child td{
+    border-top: 0px;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+table th {
+    width: 1154px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(100%);
+}
+
+input[type="date"]:hover::-webkit-calendar-picker-indicator {
+    border: none;
+    background-color: #9aa1a74e;
+    border-radius: 3px;
+}
+
+.inicioHome{
+    color: black;
+    border: none;
+    font-size: x-large;
+    padding: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.drop{
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: x-large;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-top: 1px;
+}
+
+.drop:hover, .inicioHome:hover{
+    border-radius: 4px;
+    color: white;
+    background-color: #75a5ee65;
+}
+
+.nav-item{
+    font-weight: bold;
+    font-size: medium;
+}
+
+.dropdw{
+    padding: 14px;
+}
+
+.dropdw:hover{
+    background-color: #75a5ee65;
+}
+
+#carouselExampleIndicators {
+    margin: 20px;
+    margin-top: 90px;
+}
+
+.carousel-inner {
+    border-radius: 10px;
+    margin: 0 auto;
+    height: 558px;
+    width: 96%;
+    border: 4px solid black;
+}
+
+.carousel-item img {
+    border-radius: 6px;
+    height: 558px;
+    margin: 0px;
+}
+
+.add-row{
+    color: green;
+}
+
+.add-row:hover{
+    color: rgba(11, 138, 11, 0.452);
+}
+
+.delete-row{
+    color: red;
+}
+
+.delete-row:hover{
+    color: rgba(203, 18, 18, 0.458);
+}
